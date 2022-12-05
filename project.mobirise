@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page53.html",
+    "currentPage": "page77.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,11 +38,19 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 317,
+    "uniqCompNum": 328,
     "versionPublish": "5.6.8",
     "screenshot": "screenshot.png",
-    "imageResize": true,
-    "publishChangesOnly": false
+    "imageResize": false,
+    "publishChangesOnly": false,
+    "favicon": false,
+    "mbrsiteDomain": "ez97rpmmv2",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -474,7 +482,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp2567-1824x1216.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Terje Grønning</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Welcome to my home page. The collections of&nbsp; photos pertain to our dogs and our horse,&nbsp; as well as to townscapes and folk art in Japan, Norway and Sweden. &nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Four dogs and a horse</a> <a class=\"btn btn-md btn-white-outline\" href=\"page53.html\" data-app-placeholder=\"Type Text\">Townscapes in&nbsp; Japan</a> <a class=\"btn btn-md btn-white-outline\" href=\"page49.html\" data-app-placeholder=\"Type Text\">Townscapes in Norway</a> <a class=\"btn btn-md btn-white-outline\" href=\"page48.html\" data-app-placeholder=\"Type Text\">Townscapes in Sweden</a> <a class=\"btn btn-md btn-white-outline\" href=\"page50.html\" data-app-placeholder=\"Type Text\">Folk art</a> <a class=\"btn btn-md btn-white-outline\" href=\"page6.html\" data-app-placeholder=\"Type Text\">Academic research</a> <a class=\"btn btn-md btn-white-outline\" href=\"page4.html\" data-app-placeholder=\"Type Text\">Links for townscapes&nbsp;etc.</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp2567-1824x1216.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    <br>Terje Grønning</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Welcome to my home page. The collections of&nbsp; photos pertain to our dogs and our horse,&nbsp; as well as to townscapes and folk art in Japan, Norway and Sweden. &nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"page1.html\" data-app-placeholder=\"Type Text\">Four dogs and a horse</a> <a class=\"btn btn-md btn-white-outline\" href=\"page53.html\" data-app-placeholder=\"Type Text\">Townscapes in&nbsp; Japan</a> <a class=\"btn btn-md btn-white-outline\" href=\"page49.html\" data-app-placeholder=\"Type Text\">Townscapes in Norway</a> <a class=\"btn btn-md btn-white-outline\" href=\"page48.html\" data-app-placeholder=\"Type Text\">Townscapes in Sweden</a> <a class=\"btn btn-md btn-white-outline\" href=\"page50.html\" data-app-placeholder=\"Type Text\">Folk art</a> <a class=\"btn btn-md btn-white-outline\" href=\"page6.html\" data-app-placeholder=\"Type Text\">Academic research</a> <a class=\"btn btn-md btn-white-outline\" href=\"page4.html\" data-app-placeholder=\"Type Text\">Links for townscapes&nbsp;etc.</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qTkA127IK8",
           "_anchor": "header2-1",
           "_protectedParams": [],
@@ -528,7 +536,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Four dogs and a horse",
-        "order": 72
+        "order": 75
       },
       "components": [
         {
@@ -1037,7 +1045,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Takehara",
-        "order": 71
+        "order": 74
       },
       "components": [
         {
@@ -1856,7 +1864,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Hisago",
-        "order": 70
+        "order": 73
       },
       "components": [
         {
@@ -2620,7 +2628,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Links",
-        "order": 69
+        "order": 72
       },
       "components": [
         {
@@ -3214,7 +3222,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Teaching",
-        "order": 68
+        "order": 71
       },
       "components": [
         {
@@ -3834,7 +3842,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Research",
-        "order": 67
+        "order": 70
       },
       "components": [
         {
@@ -4350,7 +4358,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Kanro",
-        "order": 66
+        "order": 69
       },
       "components": [
         {
@@ -5142,7 +5150,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Utena",
-        "order": 65
+        "order": 68
       },
       "components": [
         {
@@ -5817,7 +5825,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Hinako",
-        "order": 64
+        "order": 67
       },
       "components": [
         {
@@ -6453,7 +6461,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Tawarayama",
-        "order": 63
+        "order": 66
       },
       "components": [
         {
@@ -7250,7 +7258,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Iwami Ginzan",
-        "order": 62
+        "order": 65
       },
       "components": [
         {
@@ -7969,7 +7977,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Yutakamachi I",
-        "order": 61
+        "order": 64
       },
       "components": [
         {
@@ -9117,7 +9125,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Yutakamachi II",
-        "order": 60
+        "order": 63
       },
       "components": [
         {
@@ -10343,7 +10351,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Yunotsu",
-        "order": 59
+        "order": 62
       },
       "components": [
         {
@@ -11049,7 +11057,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Takehara II",
-        "order": 58
+        "order": 61
       },
       "components": [
         {
@@ -11872,7 +11880,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Fukuyama",
-        "order": 57
+        "order": 60
       },
       "components": [
         {
@@ -12638,7 +12646,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Fukiya",
-        "order": 56
+        "order": 59
       },
       "components": [
         {
@@ -13513,7 +13521,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Fukiya II",
-        "order": 55
+        "order": 58
       },
       "components": [
         {
@@ -14258,7 +14266,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hagi",
-        "order": 54
+        "order": 57
       },
       "components": [
         {
@@ -14977,7 +14985,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Matsue",
-        "order": 53
+        "order": 56
       },
       "components": [
         {
@@ -15800,7 +15808,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Yoshioka",
-        "order": 52
+        "order": 55
       },
       "components": [
         {
@@ -16675,7 +16683,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Iwami",
-        "order": 51
+        "order": 54
       },
       "components": [
         {
@@ -17381,7 +17389,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Tottori",
-        "order": 50
+        "order": 53
       },
       "components": [
         {
@@ -18074,7 +18082,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Izushi I",
-        "order": 49
+        "order": 52
       },
       "components": [
         {
@@ -19001,7 +19009,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Izushi II",
-        "order": 48
+        "order": 51
       },
       "components": [
         {
@@ -19928,7 +19936,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Kinosaki",
-        "order": 47
+        "order": 50
       },
       "components": [
         {
@@ -20621,7 +20629,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Futsukaichi",
-        "order": 46
+        "order": 49
       },
       "components": [
         {
@@ -21262,7 +21270,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Yanagawa",
-        "order": 45
+        "order": 48
       },
       "components": [
         {
@@ -21955,7 +21963,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Moji",
-        "order": 44
+        "order": 47
       },
       "components": [
         {
@@ -22622,7 +22630,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Wakamatsu I",
-        "order": 43
+        "order": 46
       },
       "components": [
         {
@@ -23484,7 +23492,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Wakamatsu II",
-        "order": 42
+        "order": 45
       },
       "components": [
         {
@@ -24281,7 +24289,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Katsumoto I",
-        "order": 41
+        "order": 44
       },
       "components": [
         {
@@ -25143,7 +25151,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Katsumoto II",
-        "order": 40
+        "order": 43
       },
       "components": [
         {
@@ -26122,7 +26130,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Go no Ura",
-        "order": 39
+        "order": 42
       },
       "components": [
         {
@@ -26867,7 +26875,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Kounoura I",
-        "order": 38
+        "order": 41
       },
       "components": [
         {
@@ -27651,7 +27659,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Kounoura II",
-        "order": 37
+        "order": 40
       },
       "components": [
         {
@@ -28448,7 +28456,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Azuchi",
-        "order": 36
+        "order": 39
       },
       "components": [
         {
@@ -29323,7 +29331,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Hirado 2017",
-        "order": 35
+        "order": 38
       },
       "components": [
         {
@@ -30050,7 +30058,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hirado 1970 (!)",
-        "order": 34
+        "order": 37
       },
       "components": [
         {
@@ -30660,7 +30668,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Ikitsuki",
-        "order": 33
+        "order": 36
       },
       "components": [
         {
@@ -31074,7 +31082,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Yobuko",
-        "order": 32
+        "order": 35
       },
       "components": [
         {
@@ -31488,7 +31496,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Shiotatsu 1",
-        "order": 31
+        "order": 34
       },
       "components": [
         {
@@ -32285,7 +32293,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Hizen Kashima 1",
-        "order": 30
+        "order": 33
       },
       "components": [
         {
@@ -33017,7 +33025,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Hizen Kashima 2",
-        "order": 29
+        "order": 32
       },
       "components": [
         {
@@ -33775,7 +33783,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Shiotatsu 2",
-        "order": 28
+        "order": 31
       },
       "components": [
         {
@@ -34507,7 +34515,7 @@
       "settings": {
         "meta_descr": "Townscapes- Sweden",
         "title": "Townscapes- Sweden",
-        "order": 27
+        "order": 30
       },
       "components": [
         {
@@ -34944,7 +34952,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Townscapes - Norway",
-        "order": 26
+        "order": 29
       },
       "components": [
         {
@@ -35402,7 +35410,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Folk art",
-        "order": 25
+        "order": 28
       },
       "components": [
         {
@@ -35885,7 +35893,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Flekkefjord",
-        "order": 24
+        "order": 27
       },
       "components": [
         {
@@ -36884,7 +36892,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Farsund",
-        "order": 23
+        "order": 26
       },
       "components": [
         {
@@ -37698,7 +37706,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Townscapes Japan",
-        "order": 22
+        "order": 25
       },
       "components": [
         {
@@ -38303,7 +38311,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc01847-2-2000x1500.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Toyama Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page71.html\" data-app-placeholder=\"Type Text\">Imizu - Shosei<br></a> <a class=\"btn btn-white-outline\" href=\"page73.html\" data-app-placeholder=\"Type Text\">Nanto - Fukumitsu<br></a> <a class=\"btn btn-white-outline\" href=\"page74.html\" data-app-placeholder=\"Type Text\">Nanto - Fukuno<br></a> <a class=\"btn btn-white-outline\" href=\"page70.html\" data-app-placeholder=\"Type Text\">Takaoka - Kanayamachi</a>  <a class=\"btn btn-white-outline\" href=\"page68.html\" data-app-placeholder=\"Type Text\">Takaoka - Yamato Usuji</a> <a class=\"btn btn-white-outline\" href=\"page72.html\" data-app-placeholder=\"Type Text\">Toyama - Yatsuo</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc01847-2-2000x1500.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Toyama Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page71.html\" data-app-placeholder=\"Type Text\">Imizu - Shosei<br></a> <a class=\"btn btn-white-outline\" href=\"page73.html\" data-app-placeholder=\"Type Text\">Nanto - Fukumitsu<br></a> <a class=\"btn btn-white-outline\" href=\"page77.html\" data-app-placeholder=\"Type Text\">Nanto - Fukuno<br></a> <a class=\"btn btn-white-outline\" href=\"page70.html\" data-app-placeholder=\"Type Text\">Takaoka - Kanayamachi</a>  <a class=\"btn btn-white-outline\" href=\"page68.html\" data-app-placeholder=\"Type Text\">Takaoka - Yamato Usuji</a> <a class=\"btn btn-white-outline\" href=\"page72.html\" data-app-placeholder=\"Type Text\">Toyama - Yatsuo</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "info3-7n",
           "_isUserblock": true,
           "_cid": "toT9HmAlhK",
@@ -38341,7 +38349,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Loshavn",
-        "order": 21
+        "order": 24
       },
       "components": [
         {
@@ -39173,7 +39181,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Kakegawa - Kamoso",
-        "order": 20
+        "order": 23
       },
       "components": [
         {
@@ -39875,7 +39883,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Bykle Kyrkje",
-        "order": 19
+        "order": 22
       },
       "components": [
         {
@@ -40798,7 +40806,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Unnaryd",
-        "order": 18
+        "order": 21
       },
       "components": [
         {
@@ -41383,7 +41391,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Bollaltebygget",
-        "order": 17
+        "order": 20
       },
       "components": [
         {
@@ -41968,7 +41976,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Apladalen",
-        "order": 16
+        "order": 19
       },
       "components": [
         {
@@ -42553,7 +42561,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Olpersgården ",
-        "order": 15
+        "order": 18
       },
       "components": [
         {
@@ -42967,7 +42975,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Gökhem",
-        "order": 14
+        "order": 17
       },
       "components": [
         {
@@ -43381,7 +43389,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Brandstorp Kyrka",
-        "order": 13
+        "order": 16
       },
       "components": [
         {
@@ -43795,7 +43803,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Kungslena Kyrka",
-        "order": 12
+        "order": 15
       },
       "components": [
         {
@@ -44731,7 +44739,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Uvdal Stavkirke",
-        "order": 11
+        "order": 14
       },
       "components": [
         {
@@ -45615,7 +45623,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Nore Stavkirke",
-        "order": 10
+        "order": 13
       },
       "components": [
         {
@@ -46642,7 +46650,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Sønstebøstugu",
-        "order": 9
+        "order": 12
       },
       "components": [
         {
@@ -47305,7 +47313,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Røldal Stavkirke",
-        "order": 8
+        "order": 11
       },
       "components": [
         {
@@ -48007,7 +48015,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Takaoka - Yamato Usuji",
-        "order": 7
+        "order": 10
       },
       "components": [
         {
@@ -49099,7 +49107,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Takaoka",
-        "order": 6
+        "order": 9
       },
       "components": [
         {
@@ -49513,7 +49521,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Takaoka Kanayamachi",
-        "order": 5
+        "order": 8
       },
       "components": [
         {
@@ -50423,7 +50431,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Imizu Shosei",
-        "order": 4
+        "order": 7
       },
       "components": [
         {
@@ -51411,7 +51419,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Yatsuo",
-        "order": 3
+        "order": 6
       },
       "components": [
         {
@@ -53153,7 +53161,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Fukumitsu",
-        "order": 2
+        "order": 5
       },
       "components": [
         {
@@ -54813,9 +54821,9 @@
         }
       ]
     },
-    "page74.html": {
+    "page77.html": {
       "settings": {
-        "meta_descr": "Web Page Creator Description",
+        "meta_descr": "Website Maker Description",
         "title": "Fukuno",
         "order": 1
       },
@@ -55219,11 +55227,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://www.uv.uio.no/iped/english/people/aca/terjegro/index.html\" target=\"_blank\">\n                         <img src=\"@PROJECT_PATH@/assets/images/terjegro-ii-96x108.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Four dogs and a horse</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page53.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Townscapes - Japan</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page49.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Townscapes - Norway</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"page48.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Townscapes - Sweden</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page50.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-camera mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Folk art</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page6.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Research</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-italic mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Links</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-black\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qTkzRZLJNu",
+          "_anchor": "menu1-90",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-8p"
+          "_params": {}
         },
         {
           "alias": false,
@@ -55237,10 +55245,10 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Nanto  Fukuno（南砺市　福野）<br>27 October, 2022</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content4-8q",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Nanto Fukuno（南砺市　福野）\n<div>27 October, 2022</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-91",
           "_isUserblock": true,
-          "_cid": "tp55a2Bs9G",
+          "_cid": "tp8bG4wCvO",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -55321,9 +55329,9 @@
           "_name": "gallery3",
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
-          "_anchor": "gallery3-8r",
+          "_anchor": "gallery3-92",
           "_isUserblock": true,
-          "_cid": "tp55aLH6FU",
+          "_cid": "tp8bGzzYrQ",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -55342,8 +55350,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00773-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00773-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00773.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00773-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55355,8 +55363,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00773b-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00773b-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00773b.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00773b-800x1065.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55368,8 +55376,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00773c-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00773c-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00773c.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00773c-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55381,8 +55389,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00774-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00774-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00774.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00774-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55394,8 +55402,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00775-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00775-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00775.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00775-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55407,8 +55415,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00804-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00804-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00804.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00804-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55420,8 +55428,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00804b-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00804b-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00804b.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00804b-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55433,8 +55441,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00805-2-2000x1362.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00805-2-2000x1362-800x545.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00805-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00805-2-800x545.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55446,8 +55454,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00807-2000x1500.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00807-2000x1500-800x750.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00807.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00807-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55459,8 +55467,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00808-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00808-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00808.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00808-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55472,8 +55480,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00809-2-2000x1189.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00809-2-2000x1189-800x476.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00809-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00809-2-800x475.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55485,8 +55493,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00810-2-2000x1287.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00810-2-2000x1287-800x515.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00810-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00810-2-800x515.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55498,8 +55506,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00812-2-2000x1612.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00812-2-2000x1612-800x645.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00812-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00812-2-800x645.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55511,8 +55519,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00813-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00813-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00813.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00813-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55524,8 +55532,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00814-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00814-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00814.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00814-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55537,8 +55545,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00815-2-2000x1128.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00815-2-2000x1128-800x451.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00815-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00815-2-800x451.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55550,8 +55558,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00816-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00816-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00816.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00816-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55563,8 +55571,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00817-2-2000x1113.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00817-2-2000x1113-800x445.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00817-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00817-2-800x445.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55576,8 +55584,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00818-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00818-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00818.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00818-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55589,8 +55597,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00819-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00819-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00819.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00819-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55602,8 +55610,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00820-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00820-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00820.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00820-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55615,8 +55623,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00822-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00822-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00822.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00822-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55628,8 +55636,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00823-2-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00823-2-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00823-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00823-2-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55641,8 +55649,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00826-2-2000x2902.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00826-2-2000x2902-800x1161.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00826-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00826-2-800x1161.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55654,8 +55662,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00827-2-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00827-2-2000x2667-800x1067.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00827-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00827-2-800x1067.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55667,8 +55675,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00828-2-2000x1161.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00828-2-2000x1161-800x464.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00828-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00828-2-800x465.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55680,8 +55688,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00829-2-2000x1319.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00829-2-2000x1319-800x528.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00829-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00829-2-800x528.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55693,8 +55701,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00829-2b-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00829-2b-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00829-2b.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00829-2b-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55706,8 +55714,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00830-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00830-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00830.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00830-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55719,8 +55727,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00832-2-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00832-2-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00832-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00832-2-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55732,8 +55740,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00833-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00833-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00833.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00833-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55745,8 +55753,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00834-2-2000x2715.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00834-2-2000x2715-800x1086.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00834-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00834-2-800x1086.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55758,8 +55766,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00835-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00835-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00835.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00835-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55771,8 +55779,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00837-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00837-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00837.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00837-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55784,8 +55792,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00837b-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00837b-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00837b.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00837b-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55797,8 +55805,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00837c-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00837c-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00837c.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00837c-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55810,8 +55818,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00837d-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00837d-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00837d.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00837d-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55823,8 +55831,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00840-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00840-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00840.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00840-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55836,8 +55844,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00841-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00841-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00841.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00841-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55849,8 +55857,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00844-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00844-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00844.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00844-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55862,8 +55870,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00845-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00845-2000x2667-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00845.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00845-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55875,8 +55883,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00884-2-2000x1338.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00884-2-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00884-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00884-2-800x535.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55888,8 +55896,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00782-2-2000x1161.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00782-2-2000x1161-800x464.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00782-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00782-2-800x464.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55901,8 +55909,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00783-3-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00783-3-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00783-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00783-3-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55914,8 +55922,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00784-2b-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00784-2b-2000x2667-800x924.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00784-2b.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00784-2b-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55927,8 +55935,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00784-2c-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00784-2c-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00784-2c.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00784-2c-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55940,8 +55948,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00785-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00785-2000x2667-800x967.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00785.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00785-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55953,8 +55961,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00786-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00786-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00786.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00786-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55966,8 +55974,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00787-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00787-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00787.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00787-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55979,8 +55987,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00790-2-2000x1393.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00790-2-2000x1393-800x557.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00790-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00790-2-800x557.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -55992,8 +56000,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00792-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00792-2000x2667-800x958.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00792.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00792-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56005,8 +56013,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00793-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00793-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00793.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00793-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56018,8 +56026,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00794-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00794-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00794.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00794-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56031,8 +56039,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00795-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00795-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00795.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00795-800x1067.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56044,8 +56052,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00798-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00798-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00798.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00798-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56057,8 +56065,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00799-2000x2667.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00799-2000x2667-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00799.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00799-800x1064.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56070,8 +56078,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00801-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00801-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00801.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00801-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56083,8 +56091,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00802-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00802-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00802.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00802-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56096,21 +56104,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00803-2-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00803-2-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc00779-2-1168x415.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc00779-2-1168x415-800x284.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00803-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00803-2-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -56156,12 +56151,12 @@
           "_name": "map1",
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"nanto fukuno\" value=\"nanto fukuno\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_cid": "tp55dazWoK",
+          "_cid": "tp8evmip8C",
+          "_anchor": "map1-93",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "map1-8s"
+          "_params": {}
         }
       ]
     }
