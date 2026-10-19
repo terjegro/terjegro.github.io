@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Folk Art & Townscapes",
-    "currentPage": "page53.html",
+    "currentPage": "page230.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35633,7 +35633,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -35672,15 +35672,15 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/312716245-3435172686713463-2720141677072592135-n-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/312716245-3435172686713463-2720141677072592135-n-fileminimizer-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/312716245-3435172686713463-2720141677072592135-n-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/312716245-3435172686713463-2720141677072592135-n-1-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -35745,7 +35745,7 @@
           },
           "_name": "map1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"板取宿\" value=\"板取宿\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.895504050778!2d136.1513266757995!3d35.728788372572026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001ff3ab26be4fb%3A0x719fb7893aa70679!2z5p2_5Y-W5a6_IOmnkOi7iuWgtA!5e0!3m2!1sno!2sno!4v1792396627183!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.895504050778!2d136.1513266757995!3d35.728788372572026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001ff3ab26be4fb%3A0x719fb7893aa70679!2z5p2_5Y-W5a6_IOmnkOi7iuWgtA!5e0!3m2!1sno!2sno!4v1792396627183!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_cid": "tpk9W9BQpB",
           "_anchor": "map1-ay",
           "_protectedParams": [],
