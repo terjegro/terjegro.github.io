@@ -38,7 +38,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 1305,
+    "uniqCompNum": 1313,
     "versionPublish": "6.1.12",
     "screenshot": "screenshot.png",
     "imageResize": false,
@@ -187,7 +187,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Four dogs and a horse",
-        "order": "232"
+        "order": "234"
       },
       "components": [
         {
@@ -291,7 +291,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Takehara",
-        "order": "231"
+        "order": "233"
       },
       "components": [
         {
@@ -1004,7 +1004,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Hisago",
-        "order": "230"
+        "order": "232"
       },
       "components": [
         {
@@ -1363,7 +1363,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Links",
-        "order": "229"
+        "order": "231"
       },
       "components": [
         {
@@ -1552,7 +1552,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Kanro",
-        "order": "228"
+        "order": "230"
       },
       "components": [
         {
@@ -1939,7 +1939,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Utena",
-        "order": "227"
+        "order": "229"
       },
       "components": [
         {
@@ -2209,7 +2209,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Hinako",
-        "order": "226"
+        "order": "228"
       },
       "components": [
         {
@@ -2440,9 +2440,30 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Tawarayama",
-        "order": "225"
+        "order": "227"
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Tawarayama Onsen (俵山温泉)<br>2011</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-109",
+          "_isUserblock": true,
+          "_cid": "vyzqKwHKTh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -2582,7 +2603,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -2764,20 +2785,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp1429-2-1357x906.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp1429-2-1357x906-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -2832,9 +2840,30 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Iwami Ginzan",
-        "order": "224"
+        "order": "226"
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Ohmori (大森)<br>2011</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-10a",
+          "_isUserblock": true,
+          "_cid": "vyzra1nlBZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -3130,7 +3159,7 @@
             }
           },
           "_name": "map1",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJMe8nKm0PWjURzp8TiZJPlf8\" value=\"石見銀山\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.798573432002!2d132.43893885916904!3d35.10922565771328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a0f13e7f8a6d1%3A0x4bfdd53f11d35909!2sOmoricho%2C%20Oda%2C%20Shimane%20694-0305%2C%20Japan!5e0!3m2!1sno!2sno!4v1792479742666!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.798573432002!2d132.43893885916904!3d35.10922565771328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a0f13e7f8a6d1%3A0x4bfdd53f11d35909!2sOmoricho%2C%20Oda%2C%20Shimane%20694-0305%2C%20Japan!5e0!3m2!1sno!2sno!4v1792479742666!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_anchor": "map1-2j",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -3146,7 +3175,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Yutakamachi",
-        "order": "223"
+        "order": "225"
       },
       "components": [
         {
@@ -3244,7 +3273,7 @@
           },
           "_name": "gallery3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery3-mh",
           "_isUserblock": true,
           "_cid": "tSInqsBALp",
@@ -3261,32 +3290,6 @@
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0-fileminimizer-3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0-fileminimizer-3-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/1-fileminimizer-17.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-fileminimizer-17-768x1151.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
               {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -3961,7 +3964,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -4325,7 +4328,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -4334,19 +4337,6 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/imgp2404-fileminimizer.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/imgp2404-fileminimizer-800x1200.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2473-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2473-fileminimizer-800x534.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4488,8 +4478,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2504b-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2504b-fileminimizer-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/imgp2504b-fileminimizer.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/imgp2504b-fileminimizer-800x534.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4601,7 +4591,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Yunotsu 2011",
-        "order": "222"
+        "order": "224"
       },
       "components": [
         {
@@ -4950,7 +4940,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Fukuyama",
-        "order": "221"
+        "order": "223"
       },
       "components": [
         {
@@ -5311,7 +5301,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Fukiya",
-        "order": "220"
+        "order": "222"
       },
       "components": [
         {
@@ -5781,7 +5771,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Fukiya II",
-        "order": "219"
+        "order": "221"
       },
       "components": [
         {
@@ -6121,7 +6111,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hagi",
-        "order": "218"
+        "order": "220"
       },
       "components": [
         {
@@ -6435,7 +6425,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Matsue",
-        "order": "217"
+        "order": "219"
       },
       "components": [
         {
@@ -6853,7 +6843,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Yoshioka",
-        "order": "215"
+        "order": "217"
       },
       "components": [
         {
@@ -7323,7 +7313,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Iwami",
-        "order": "214"
+        "order": "216"
       },
       "components": [
         {
@@ -7624,7 +7614,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Tottori",
-        "order": "213"
+        "order": "215"
       },
       "components": [
         {
@@ -7912,7 +7902,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Izushi",
-        "order": "212"
+        "order": "214"
       },
       "components": [
         {
@@ -8743,7 +8733,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Kinosaki",
-        "order": "210"
+        "order": "212"
       },
       "components": [
         {
@@ -9041,7 +9031,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Futsukaichi",
-        "order": "209"
+        "order": "211"
       },
       "components": [
         {
@@ -9277,7 +9267,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Yanagawa",
-        "order": "208"
+        "order": "210"
       },
       "components": [
         {
@@ -9565,7 +9555,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Moji",
-        "order": "207"
+        "order": "209"
       },
       "components": [
         {
@@ -9827,7 +9817,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Wakamatsu",
-        "order": "206"
+        "order": "208"
       },
       "components": [
         {
@@ -10333,7 +10323,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Katsumoto",
-        "order": "205"
+        "order": "207"
       },
       "components": [
         {
@@ -11242,7 +11232,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Go no Ura",
-        "order": "204"
+        "order": "206"
       },
       "components": [
         {
@@ -11605,7 +11595,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Kounoura",
-        "order": "203"
+        "order": "205"
       },
       "components": [
         {
@@ -12202,7 +12192,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Azuchi",
-        "order": "202"
+        "order": "204"
       },
       "components": [
         {
@@ -12659,7 +12649,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Hirado 2017",
-        "order": "201"
+        "order": "203"
       },
       "components": [
         {
@@ -12981,7 +12971,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hirado 1970 (!)",
-        "order": "200"
+        "order": "202"
       },
       "components": [
         {
@@ -13186,7 +13176,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Ikitsuki",
-        "order": "199"
+        "order": "201"
       },
       "components": [
         {
@@ -13510,7 +13500,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Yobuko",
-        "order": "198"
+        "order": "200"
       },
       "components": []
     },
@@ -13518,7 +13508,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Shiotatsu",
-        "order": "197"
+        "order": "199"
       },
       "components": [
         {
@@ -14089,7 +14079,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Hizen Kashima 1",
-        "order": "196"
+        "order": "198"
       },
       "components": [
         {
@@ -14661,7 +14651,7 @@
       "settings": {
         "meta_descr": "Townscapes- Sweden",
         "title": "Townscapes- Sweden",
-        "order": "195"
+        "order": "197"
       },
       "components": [
         {
@@ -14693,7 +14683,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Townscapes - Nordic",
-        "order": "194"
+        "order": "196"
       },
       "components": [
         {
@@ -14769,7 +14759,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Folk art and craft",
-        "order": "138"
+        "order": "140"
       },
       "components": [
         {
@@ -14893,7 +14883,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Flekkefjord",
-        "order": "193"
+        "order": "195"
       },
       "components": [
         {
@@ -15487,7 +15477,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Farsund",
-        "order": "192"
+        "order": "194"
       },
       "components": [
         {
@@ -16043,7 +16033,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Loshavn",
-        "order": "191"
+        "order": "193"
       },
       "components": [
         {
@@ -16470,7 +16460,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Kakegawa - Kamoso",
-        "order": "190"
+        "order": "192"
       },
       "components": [
         {
@@ -16767,7 +16757,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Bykle Kyrkje",
-        "order": "189"
+        "order": "191"
       },
       "components": [
         {
@@ -17285,7 +17275,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Unnaryd II",
-        "order": "187"
+        "order": "189"
       },
       "components": [
         {
@@ -17868,7 +17858,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Bollaltebygget",
-        "order": "186"
+        "order": "188"
       },
       "components": [
         {
@@ -18438,7 +18428,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Apladalen",
-        "order": "185"
+        "order": "187"
       },
       "components": [
         {
@@ -19086,7 +19076,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Olpersgarden",
-        "order": "184"
+        "order": "186"
       },
       "components": [
         {
@@ -20099,7 +20089,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Gökhem",
-        "order": "183"
+        "order": "185"
       },
       "components": [
         {
@@ -21250,7 +21240,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Brandstorp Kyrka",
-        "order": "182"
+        "order": "184"
       },
       "components": [
         {
@@ -22185,7 +22175,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Kungslena Kyrka",
-        "order": "181"
+        "order": "183"
       },
       "components": [
         {
@@ -22716,7 +22706,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Uvdal Stavkirke",
-        "order": "180"
+        "order": "182"
       },
       "components": [
         {
@@ -23195,7 +23185,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Nore Stavkirke",
-        "order": "179"
+        "order": "181"
       },
       "components": [
         {
@@ -23817,7 +23807,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Sønstebøstugu",
-        "order": "178"
+        "order": "180"
       },
       "components": [
         {
@@ -24075,7 +24065,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Røldal Stavkirke",
-        "order": "177"
+        "order": "179"
       },
       "components": [
         {
@@ -24372,7 +24362,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Takaoka - Yamachosuji",
-        "order": "176"
+        "order": "178"
       },
       "components": [
         {
@@ -25124,7 +25114,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Takaoka bathhouses",
-        "order": "175"
+        "order": "177"
       },
       "components": []
     },
@@ -25132,7 +25122,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Takaoka Kanayamachi",
-        "order": "174"
+        "order": "176"
       },
       "components": [
         {
@@ -25637,7 +25627,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Imizu Shosei",
-        "order": "173"
+        "order": "175"
       },
       "components": [
         {
@@ -26220,7 +26210,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Yatsuo",
-        "order": "172"
+        "order": "174"
       },
       "components": [
         {
@@ -27557,7 +27547,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Fukumitsu",
-        "order": "170"
+        "order": "172"
       },
       "components": [
         {
@@ -28816,7 +28806,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Fukuno",
-        "order": "166"
+        "order": "168"
       },
       "components": [
         {
@@ -29763,7 +29753,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Kichiya",
-        "order": "169"
+        "order": "171"
       },
       "components": [
         {
@@ -30242,7 +30232,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Shin-Minato",
-        "order": "168"
+        "order": "170"
       },
       "components": [
         {
@@ -31575,7 +31565,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Horioka",
-        "order": "167"
+        "order": "169"
       },
       "components": [
         {
@@ -32119,7 +32109,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Inami",
-        "order": "164"
+        "order": "166"
       },
       "components": [
         {
@@ -32728,7 +32718,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Inami woodcraft",
-        "order": "165"
+        "order": "167"
       },
       "components": [
         {
@@ -33350,7 +33340,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Yoshihisa",
-        "order": "163"
+        "order": "165"
       },
       "components": [
         {
@@ -33816,7 +33806,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Johana",
-        "order": "162"
+        "order": "164"
       },
       "components": [
         {
@@ -35325,7 +35315,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Itadori",
-        "order": "161"
+        "order": "163"
       },
       "components": [
         {
@@ -35759,7 +35749,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Tsuruga",
-        "order": "160"
+        "order": "162"
       },
       "components": [
         {
@@ -36121,7 +36111,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Imajo",
-        "order": "159"
+        "order": "161"
       },
       "components": [
         {
@@ -36834,7 +36824,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Matsumoto",
-        "order": "158"
+        "order": "160"
       },
       "components": [
         {
@@ -37729,7 +37719,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Okaya",
-        "order": "139"
+        "order": "141"
       },
       "components": [
         {
@@ -39606,7 +39596,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Shibu",
-        "order": "154"
+        "order": "156"
       },
       "components": [
         {
@@ -40605,7 +40595,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Reisenji Onsen",
-        "order": "152"
+        "order": "154"
       },
       "components": [
         {
@@ -41110,7 +41100,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Unnojuku",
-        "order": "144"
+        "order": "146"
       },
       "components": [
         {
@@ -42584,7 +42574,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Bessho Onsen",
-        "order": "142"
+        "order": "144"
       },
       "components": [
         {
@@ -43454,7 +43444,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hayashi Residence",
-        "order": "140"
+        "order": "142"
       },
       "components": [
         {
@@ -44362,7 +44352,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Ueda",
-        "order": "157"
+        "order": "159"
       },
       "components": [
         {
@@ -44972,7 +44962,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Tsuruoka",
-        "order": "151"
+        "order": "153"
       },
       "components": [
         {
@@ -45152,7 +45142,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Nagahama",
-        "order": "150"
+        "order": "152"
       },
       "components": [
         {
@@ -45501,7 +45491,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Dorogawa",
-        "order": "145"
+        "order": "147"
       },
       "components": [
         {
@@ -45599,7 +45589,7 @@
           },
           "_name": "gallery3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery3-mi",
           "_isUserblock": true,
           "_cid": "tSIsyGbnkE",
@@ -45627,7 +45617,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -45712,8 +45702,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2290-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2290-fileminimizer-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/imgp2290-fileminimizer.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/imgp2290-fileminimizer-800x534.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -45855,19 +45845,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2305-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2305-fileminimizer-768x1151.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/imgp2306-fileminimizer.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/imgp2306-fileminimizer-800x534.jpg",
                 "alt": "",
@@ -45959,19 +45936,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2313-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2313-fileminimizer-768x1151.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/imgp2314-fileminimizer.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/imgp2314-fileminimizer-768x1151.jpg",
                 "alt": "",
@@ -46037,8 +46001,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2320-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2320-fileminimizer-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/imgp2320-fileminimizer.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/imgp2320-fileminimizer-800x534.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -46297,60 +46261,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2334-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2334-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/imgp2335-fileminimizer.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/imgp2335-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2336-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2336-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2337-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2337-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2338-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2338-fileminimizer-800x534.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -46368,46 +46280,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2340-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2340-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2341-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2341-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/imgp2342-fileminimizer.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imgp2342-fileminimizer-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -46447,7 +46320,7 @@
           },
           "_name": "map1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"dorogawa onsen\" value=\"dorogawa onsen\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6594.296975222217!2d135.87511589425148!3d34.27026554230251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6006c047864aea03%3A0xac7274d45889808f!2sDorogawa%20Onsen%2C%20Dorogawa%2C%20Tenkawa%2C%20Yoshino%20District%2C%20Nara%20638-0431%2C%20Japan!5e0!3m2!1sno!2sno!4v1792416804850!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6594.296975222217!2d135.87511589425148!3d34.27026554230251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6006c047864aea03%3A0xac7274d45889808f!2sDorogawa%20Onsen%2C%20Dorogawa%2C%20Tenkawa%2C%20Yoshino%20District%2C%20Nara%20638-0431%2C%20Japan!5e0!3m2!1sno!2sno!4v1792416804850!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_cid": "tpE2Wg6h7K",
           "_anchor": "map1-cv",
           "_protectedParams": [],
@@ -46461,7 +46334,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Yamanobe no michi",
-        "order": "146"
+        "order": "148"
       },
       "components": [
         {
@@ -47441,7 +47314,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hasedera",
-        "order": "148"
+        "order": "150"
       },
       "components": [
         {
@@ -48531,7 +48404,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Kanaoka Residence",
-        "order": "141"
+        "order": "143"
       },
       "components": [
         {
@@ -48711,7 +48584,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hasedera Town",
-        "order": "149"
+        "order": "151"
       },
       "components": [
         {
@@ -49450,7 +49323,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Yamanobe no michi II",
-        "order": "147"
+        "order": "149"
       },
       "components": [
         {
@@ -50430,7 +50303,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Jigokudani",
-        "order": "156"
+        "order": "158"
       },
       "components": [
         {
@@ -50909,7 +50782,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Yukie's album",
-        "order": "137"
+        "order": "139"
       },
       "components": [
         {
@@ -50985,7 +50858,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Yukie family",
-        "order": "136"
+        "order": "138"
       },
       "components": [
         {
@@ -51369,7 +51242,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Hokkaido 2023",
-        "order": "134"
+        "order": "136"
       },
       "components": [
         {
@@ -52238,7 +52111,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Shizuoka 2023",
-        "order": "135"
+        "order": "137"
       },
       "components": [
         {
@@ -53536,7 +53409,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Kakuma",
-        "order": "133"
+        "order": "135"
       },
       "components": [
         {
@@ -53950,7 +53823,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Hita",
-        "order": "132"
+        "order": "134"
       },
       "components": [
         {
@@ -54793,7 +54666,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Yunohira",
-        "order": "131"
+        "order": "133"
       },
       "components": [
         {
@@ -55206,7 +55079,7 @@
           },
           "_name": "map1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"湯平\" value=\"湯平\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6677.610182395096!2d131.32085464406848!3d33.19298374396982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546b3a3cdb70801%3A0xc2de6e3ee6c21ce0!2sYunohira%20Onsen%2C%20Yufuincho%20Yunohira%2C%20Yufu%2C%20%C5%8Cita%20879-5112%2C%20Japan!5e0!3m2!1sno!2sno!4v1792416727067!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6677.610182395096!2d131.32085464406848!3d33.19298374396982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546b3a3cdb70801%3A0xc2de6e3ee6c21ce0!2sYunohira%20Onsen%2C%20Yufuincho%20Yunohira%2C%20Yufu%2C%20%C5%8Cita%20879-5112%2C%20Japan!5e0!3m2!1sno!2sno!4v1792416727067!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_cid": "tIeaiLEQIY",
           "_anchor": "map1-ff",
           "_protectedParams": [],
@@ -55220,7 +55093,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Tsuruoka",
-        "order": "130"
+        "order": "132"
       },
       "components": []
     },
@@ -55228,7 +55101,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Obuse",
-        "order": "129"
+        "order": "131"
       },
       "components": [
         {
@@ -55863,7 +55736,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Yudanaka",
-        "order": "128"
+        "order": "130"
       },
       "components": [
         {
@@ -56202,7 +56075,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Oginoshima",
-        "order": "126"
+        "order": "128"
       },
       "components": [
         {
@@ -56481,7 +56354,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Okadera",
-        "order": "125"
+        "order": "127"
       },
       "components": [
         {
@@ -57012,7 +56885,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Shiramine",
-        "order": "124"
+        "order": "126"
       },
       "components": [
         {
@@ -57439,7 +57312,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Hashitate",
-        "order": "123"
+        "order": "125"
       },
       "components": [
         {
@@ -57879,7 +57752,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kanazawa Kazue Chayamachi",
-        "order": "122"
+        "order": "124"
       },
       "components": [
         {
@@ -58367,7 +58240,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Kanazawa Higashi Chayamachi",
-        "order": "121"
+        "order": "123"
       },
       "components": [
         {
@@ -58794,7 +58667,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Kanazawa Nishi Chayamachi",
-        "order": "120"
+        "order": "122"
       },
       "components": [
         {
@@ -59403,7 +59276,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Kanazawa Kannonmachi",
-        "order": "119"
+        "order": "121"
       },
       "components": [
         {
@@ -59727,7 +59600,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Kanazawa Higashiyama 2-chome",
-        "order": "118"
+        "order": "120"
       },
       "components": [
         {
@@ -60155,7 +60028,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Kanazawa Nagamachi",
-        "order": "117"
+        "order": "119"
       },
       "components": [
         {
@@ -60505,7 +60378,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Nanao",
-        "order": "116"
+        "order": "118"
       },
       "components": [
         {
@@ -61609,7 +61482,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Nanao Yamanotera",
-        "order": "115"
+        "order": "117"
       },
       "components": [
         {
@@ -62271,7 +62144,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Ueda Yanagimachi",
-        "order": "114"
+        "order": "116"
       },
       "components": [
         {
@@ -62894,7 +62767,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Myoken Onsen",
-        "order": "112"
+        "order": "114"
       },
       "components": [
         {
@@ -63569,7 +63442,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Taki Onsen",
-        "order": "110"
+        "order": "112"
       },
       "components": [
         {
@@ -63919,7 +63792,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Arimatsu",
-        "order": "109"
+        "order": "111"
       },
       "components": [
         {
@@ -64347,7 +64220,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Narumi",
-        "order": "108"
+        "order": "110"
       },
       "components": [
         {
@@ -64697,7 +64570,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Yunotsuru",
-        "order": "107"
+        "order": "109"
       },
       "components": [
         {
@@ -64943,7 +64816,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Shinsekai",
-        "order": "106"
+        "order": "108"
       },
       "components": [
         {
@@ -65384,7 +65257,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Rättvik Gammelgård",
-        "order": "105"
+        "order": "107"
       },
       "components": [
         {
@@ -66046,7 +65919,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Danielsgården",
-        "order": "103"
+        "order": "105"
       },
       "components": [
         {
@@ -66625,7 +66498,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Jon-Lars",
-        "order": "102"
+        "order": "104"
       },
       "components": [
         {
@@ -67352,7 +67225,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Löka",
-        "order": "101"
+        "order": "103"
       },
       "components": [
         {
@@ -68456,7 +68329,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Ol-Anders",
-        "order": "100"
+        "order": "102"
       },
       "components": [
         {
@@ -69417,7 +69290,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Sillegården",
-        "order": "99"
+        "order": "101"
       },
       "components": [
         {
@@ -69845,7 +69718,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Vippentorpet",
-        "order": "98"
+        "order": "100"
       },
       "components": [
         {
@@ -70104,7 +69977,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Pallars",
-        "order": "97"
+        "order": "99"
       },
       "components": [
         {
@@ -70766,7 +70639,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Danielsgården II",
-        "order": "104"
+        "order": "106"
       },
       "components": [
         {
@@ -71488,7 +71361,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vårkumla",
-        "order": "96"
+        "order": "98"
       },
       "components": [
         {
@@ -71992,7 +71865,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Suntak",
-        "order": "95"
+        "order": "97"
       },
       "components": [
         {
@@ -72766,7 +72639,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Unnaryd",
-        "order": "188"
+        "order": "190"
       },
       "components": [
         {
@@ -73435,7 +73308,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Kristofers",
-        "order": "94"
+        "order": "96"
       },
       "components": [
         {
@@ -74409,7 +74282,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mårtes",
-        "order": "86"
+        "order": "88"
       },
       "components": [
         {
@@ -75214,7 +75087,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mårtes II",
-        "order": "92"
+        "order": "94"
       },
       "components": [
         {
@@ -75941,7 +75814,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Gästgivars",
-        "order": "93"
+        "order": "95"
       },
       "components": [
         {
@@ -76798,7 +76671,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Bommars",
-        "order": "91"
+        "order": "93"
       },
       "components": [
         {
@@ -77772,7 +77645,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Tjärnmyra",
-        "order": "87"
+        "order": "89"
       },
       "components": [
         {
@@ -78312,7 +78185,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mickels",
-        "order": "88"
+        "order": "90"
       },
       "components": [
         {
@@ -79008,7 +78881,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Ås",
-        "order": "89"
+        "order": "91"
       },
       "components": [
         {
@@ -79210,7 +79083,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Norrbergstugan",
-        "order": "90"
+        "order": "92"
       },
       "components": [
         {
@@ -79945,7 +79818,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Igarashi Dental Clinic",
-        "order": "55"
+        "order": "57"
       },
       "components": [
         {
@@ -80530,7 +80403,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kanbara",
-        "order": "56"
+        "order": "58"
       },
       "components": [
         {
@@ -80841,7 +80714,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Hanayome Noren",
-        "order": "54"
+        "order": "56"
       },
       "components": [
         {
@@ -81046,7 +80919,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Nissaka",
-        "order": "85"
+        "order": "87"
       },
       "components": [
         {
@@ -81781,7 +81654,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yui",
-        "order": "83"
+        "order": "85"
       },
       "components": [
         {
@@ -82339,7 +82212,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yui Kurasawa",
-        "order": "84"
+        "order": "86"
       },
       "components": [
         {
@@ -82780,7 +82653,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Kawagoe",
-        "order": "53"
+        "order": "55"
       },
       "components": [
         {
@@ -83195,7 +83068,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Mal",
-        "order": "59"
+        "order": "61"
       },
       "components": [
         {
@@ -83397,7 +83270,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yunohama",
-        "order": "82"
+        "order": "84"
       },
       "components": [
         {
@@ -83760,7 +83633,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yutagawa",
-        "order": "80"
+        "order": "82"
       },
       "components": [
         {
@@ -84110,7 +83983,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Sakata",
-        "order": "79"
+        "order": "81"
       },
       "components": [
         {
@@ -84668,7 +84541,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Matsugaoka",
-        "order": "78"
+        "order": "80"
       },
       "components": [
         {
@@ -85174,7 +85047,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Chidokan",
-        "order": "76"
+        "order": "78"
       },
       "components": [
         {
@@ -85355,7 +85228,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Tsuruoka",
-        "order": "77"
+        "order": "79"
       },
       "components": [
         {
@@ -85536,7 +85409,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kobashiyu",
-        "order": "74"
+        "order": "76"
       },
       "components": [
         {
@@ -85829,7 +85702,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Public baths",
-        "order": "52"
+        "order": "54"
       },
       "components": [
         {
@@ -85906,7 +85779,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Takarayu",
-        "order": "75"
+        "order": "77"
       },
       "components": [
         {
@@ -86173,7 +86046,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kamata baths",
-        "order": "71"
+        "order": "73"
       },
       "components": [
         {
@@ -86765,7 +86638,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Imizu baths",
-        "order": "72"
+        "order": "74"
       },
       "components": [
         {
@@ -87097,7 +86970,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Takaoka baths",
-        "order": "73"
+        "order": "75"
       },
       "components": [
         {
@@ -87871,7 +87744,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Safuranyu",
-        "order": "69"
+        "order": "71"
       },
       "components": [
         {
@@ -88177,7 +88050,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Ninomiya",
-        "order": "70"
+        "order": "72"
       },
       "components": [
         {
@@ -88470,7 +88343,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Myoken baths",
-        "order": "113"
+        "order": "115"
       },
       "components": [
         {
@@ -89119,7 +88992,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Shibu baths",
-        "order": "155"
+        "order": "157"
       },
       "components": [
         {
@@ -89455,7 +89328,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yutagawa baths",
-        "order": "81"
+        "order": "83"
       },
       "components": [
         {
@@ -89714,7 +89587,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Yudanaka baths",
-        "order": "68"
+        "order": "70"
       },
       "components": [
         {
@@ -89934,7 +89807,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kakuma Echigoya",
-        "order": "57"
+        "order": "59"
       },
       "components": [
         {
@@ -90180,7 +90053,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kakuma baths",
-        "order": "58"
+        "order": "60"
       },
       "components": [
         {
@@ -90603,7 +90476,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kishiro baths",
-        "order": "65"
+        "order": "67"
       },
       "components": [
         {
@@ -91039,7 +90912,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Semi Onsen",
-        "order": "67"
+        "order": "69"
       },
       "components": [
         {
@@ -91220,7 +91093,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Kishiro",
-        "order": "66"
+        "order": "68"
       },
       "components": [
         {
@@ -91401,7 +91274,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Nara baths",
-        "order": "64"
+        "order": "66"
       },
       "components": [
         {
@@ -91759,7 +91632,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Ekimae Onsen",
-        "order": "63"
+        "order": "65"
       },
       "components": [
         {
@@ -91992,7 +91865,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Gosho no yu",
-        "order": "211"
+        "order": "213"
       },
       "components": [
         {
@@ -92220,7 +92093,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Bessho baths",
-        "order": "143"
+        "order": "145"
       },
       "components": [
         {
@@ -92635,7 +92508,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Reisenji public bath",
-        "order": "153"
+        "order": "155"
       },
       "components": [
         {
@@ -92901,7 +92774,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Horinji",
-        "order": "171"
+        "order": "173"
       },
       "components": [
         {
@@ -93237,7 +93110,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Shiba Toge",
-        "order": "127"
+        "order": "129"
       },
       "components": [
         {
@@ -93456,7 +93329,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Taki bath",
-        "order": "111"
+        "order": "113"
       },
       "components": [
         {
@@ -93715,7 +93588,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Naka no Yu",
-        "order": "62"
+        "order": "64"
       },
       "components": [
         {
@@ -94099,7 +93972,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Nishikiyu",
-        "order": "61"
+        "order": "63"
       },
       "components": [
         {
@@ -94418,7 +94291,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Tamakyu",
-        "order": "60"
+        "order": "62"
       },
       "components": [
         {
@@ -94625,7 +94498,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Yoshioka baths",
-        "order": "216"
+        "order": "218"
       },
       "components": [
         {
@@ -94905,7 +94778,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Bozejima",
-        "order": "51"
+        "order": "53"
       },
       "components": [
         {
@@ -96334,7 +96207,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Shikama",
-        "order": "50"
+        "order": "52"
       },
       "components": [
         {
@@ -97113,7 +96986,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Kameyama",
-        "order": "49"
+        "order": "51"
       },
       "components": [
         {
@@ -97645,7 +97518,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Himeji",
-        "order": "48"
+        "order": "50"
       },
       "components": [
         {
@@ -98034,7 +97907,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Manabeshima",
-        "order": "47"
+        "order": "49"
       },
       "components": [
         {
@@ -99320,7 +99193,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kitagishima",
-        "order": "39"
+        "order": "41"
       },
       "components": [
         {
@@ -101347,7 +101220,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Shiraishijima",
-        "order": "40"
+        "order": "42"
       },
       "components": [
         {
@@ -102113,7 +101986,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Matsuzaki",
-        "order": "41"
+        "order": "43"
       },
       "components": [
         {
@@ -102515,7 +102388,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Takaya",
-        "order": "42"
+        "order": "44"
       },
       "components": [
         {
@@ -103801,7 +103674,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Oda",
-        "order": "43"
+        "order": "45"
       },
       "components": [
         {
@@ -104541,7 +104414,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Yakage",
-        "order": "44"
+        "order": "46"
       },
       "components": [
         {
@@ -106061,7 +105934,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Gotsu",
-        "order": "45"
+        "order": "47"
       },
       "components": [
         {
@@ -107217,7 +107090,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Arifuku",
-        "order": "46"
+        "order": "48"
       },
       "components": [
         {
@@ -107879,7 +107752,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kakeya",
-        "order": "15"
+        "order": "17"
       },
       "components": [
         {
@@ -108723,7 +108596,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Arai",
-        "order": "38"
+        "order": "40"
       },
       "components": [
         {
@@ -109658,7 +109531,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kasaoka",
-        "order": "16"
+        "order": "18"
       },
       "components": [
         {
@@ -110658,7 +110531,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kamonaka",
-        "order": "37"
+        "order": "39"
       },
       "components": [
         {
@@ -111515,7 +111388,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Ajigasawa",
-        "order": "28"
+        "order": "30"
       },
       "components": [
         {
@@ -111891,7 +111764,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kisuki",
-        "order": "36"
+        "order": "38"
       },
       "components": [
         {
@@ -113554,7 +113427,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Mitoya",
-        "order": "35"
+        "order": "37"
       },
       "components": [
         {
@@ -114333,7 +114206,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Minari",
-        "order": "34"
+        "order": "36"
       },
       "components": [
         {
@@ -114995,7 +114868,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Oibara",
-        "order": "32"
+        "order": "34"
       },
       "components": [
         {
@@ -115423,7 +115296,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Mimata",
-        "order": "33"
+        "order": "35"
       },
       "components": [
         {
@@ -115825,7 +115698,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kamedake",
-        "order": "31"
+        "order": "33"
       },
       "components": [
         {
@@ -116526,7 +116399,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Sanbe",
-        "order": "30"
+        "order": "32"
       },
       "components": [
         {
@@ -117318,7 +117191,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Ai",
-        "order": "29"
+        "order": "31"
       },
       "components": [
         {
@@ -118395,7 +118268,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Fukaura",
-        "order": "27"
+        "order": "29"
       },
       "components": [
         {
@@ -118758,7 +118631,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Goshogawara",
-        "order": "26"
+        "order": "28"
       },
       "components": [
         {
@@ -119095,7 +118968,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Hirosaki",
-        "order": "25"
+        "order": "27"
       },
       "components": [
         {
@@ -119978,7 +119851,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kanagi",
-        "order": "24"
+        "order": "26"
       },
       "components": [
         {
@@ -120926,7 +120799,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kizukuri",
-        "order": "23"
+        "order": "25"
       },
       "components": [
         {
@@ -121601,7 +121474,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kuroishi",
-        "order": "22"
+        "order": "24"
       },
       "components": [
         {
@@ -121782,7 +121655,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Nuruyu Onsen",
-        "order": "21"
+        "order": "23"
       },
       "components": [
         {
@@ -122535,7 +122408,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Asamushi Onsen",
-        "order": "20"
+        "order": "22"
       },
       "components": [
         {
@@ -123171,7 +123044,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Shichinohe",
-        "order": "19"
+        "order": "21"
       },
       "components": [
         {
@@ -123989,7 +123862,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Onoe",
-        "order": "18"
+        "order": "20"
       },
       "components": [
         {
@@ -124508,7 +124381,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Mutsu",
-        "order": "17"
+        "order": "19"
       },
       "components": [
         {
@@ -125077,7 +124950,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-20250927-164307325-hdrb.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Iwate Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page239.html\" data-app-placeholder=\"Type Text\">Tōno</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-20250927-164307325-hdrb.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Iwate Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page242.html\" data-app-placeholder=\"Type Text\">Dai Onsen</a> <a class=\"btn btn-white-outline\" href=\"page243.html\" data-app-placeholder=\"Type Text\">Hizume</a> <a class=\"btn btn-white-outline\" href=\"page239.html\" data-app-placeholder=\"Type Text\">Tōno</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_cid": "vxi8oyXRvi",
           "_anchor": "info3-y5",
@@ -125270,7 +125143,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp7763-2-fileminimizer-1-1292x768.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Oita Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page95.html\" data-app-placeholder=\"Type Text\">Hita</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp7763-2-fileminimizer-1-1292x768.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Oita Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page103.html\" data-app-placeholder=\"Type Text\">Hita</a> <a class=\"btn btn-white-outline\" href=\"page104.html\" data-app-placeholder=\"Type Text\">Yunohira</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_anchor": "info3-yy",
           "_cid": "vxijBytOqV",
@@ -125385,7 +125258,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp1496-1-1536x1024.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Shimane Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page217.html\" data-app-placeholder=\"Type Text\">Ai</a> <a class=\"btn btn-white-outline\" href=\"page204.html\" data-app-placeholder=\"Type Text\">Arifuku</a> <a class=\"btn btn-white-outline\" href=\"page203.html\" data-app-placeholder=\"Type Text\">Gotsu</a> <a class=\"btn btn-white-outline\" href=\"page12.html\" data-app-placeholder=\"Type Text\">Iwami Ginzan</a> <a class=\"btn btn-white-outline\" href=\"page205.html\" data-app-placeholder=\"Type Text\">Kakeya</a> <a class=\"btn btn-white-outline\" href=\"page215.html\" data-app-placeholder=\"Type Text\">Kamedake </a> <a class=\"btn btn-white-outline\" href=\"page208.html\" data-app-placeholder=\"Type Text\">Kamonaka</a> <a class=\"btn btn-white-outline\" href=\"page210.html\" data-app-placeholder=\"Type Text\">Kisuki</a> <a class=\"btn btn-white-outline\" href=\"page21.html\" data-app-placeholder=\"Type Text\">Matsue</a> <a class=\"btn btn-white-outline\" href=\"page214.html\" data-app-placeholder=\"Type Text\">Mimata</a> <a class=\"btn btn-white-outline\" href=\"page212.html\" data-app-placeholder=\"Type Text\">Minari</a> <a class=\"btn btn-white-outline\" href=\"page211.html\" data-app-placeholder=\"Type Text\">Mitoya</a> <a class=\"btn btn-white-outline\" href=\"page237.html\" data-app-placeholder=\"Type Text\">Nagahama</a> <a class=\"btn btn-white-outline\" href=\"page213.html\" data-app-placeholder=\"Type Text\">Oibara</a> <a class=\"btn btn-white-outline\" href=\"page216.html\" data-app-placeholder=\"Type Text\">Sanbe</a> <a class=\"btn btn-white-outline\" href=\"page15.html\" data-app-placeholder=\"Type Text\">Yunotsu '11</a> <a class=\"btn btn-white-outline\" href=\"page15.html\" data-app-placeholder=\"Type Text\">Yunotsu '23</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/imgp1496-1-1536x1024.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Shimane Prefecture</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page217.html\" data-app-placeholder=\"Type Text\">Ai</a> <a class=\"btn btn-white-outline\" href=\"page204.html\" data-app-placeholder=\"Type Text\">Arifuku</a> <a class=\"btn btn-white-outline\" href=\"page203.html\" data-app-placeholder=\"Type Text\">Gotsu</a>  <a class=\"btn btn-white-outline\" href=\"page205.html\" data-app-placeholder=\"Type Text\">Kakeya</a> <a class=\"btn btn-white-outline\" href=\"page215.html\" data-app-placeholder=\"Type Text\">Kamedake </a> <a class=\"btn btn-white-outline\" href=\"page208.html\" data-app-placeholder=\"Type Text\">Kamonaka</a> <a class=\"btn btn-white-outline\" href=\"page210.html\" data-app-placeholder=\"Type Text\">Kisuki</a> <a class=\"btn btn-white-outline\" href=\"page21.html\" data-app-placeholder=\"Type Text\">Matsue</a> <a class=\"btn btn-white-outline\" href=\"page214.html\" data-app-placeholder=\"Type Text\">Mimata</a> <a class=\"btn btn-white-outline\" href=\"page212.html\" data-app-placeholder=\"Type Text\">Minari</a> <a class=\"btn btn-white-outline\" href=\"page211.html\" data-app-placeholder=\"Type Text\">Mitoya</a> <a class=\"btn btn-white-outline\" href=\"page237.html\" data-app-placeholder=\"Type Text\">Nagahama</a> <a class=\"btn btn-white-outline\" href=\"page12.html\" data-app-placeholder=\"Type Text\">Ohmori</a> <a class=\"btn btn-white-outline\" href=\"page213.html\" data-app-placeholder=\"Type Text\">Oibara</a> <a class=\"btn btn-white-outline\" href=\"page216.html\" data-app-placeholder=\"Type Text\">Sanbe</a> <a class=\"btn btn-white-outline\" href=\"page15.html\" data-app-placeholder=\"Type Text\">Yunotsu '11</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_cid": "vxi8znprJx",
           "_anchor": "info3-yh",
@@ -125446,7 +125319,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Yuwara",
-        "order": "13"
+        "order": "15"
       },
       "components": [
         {
@@ -125900,7 +125773,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Wakasa",
-        "order": "14"
+        "order": "16"
       },
       "components": [
         {
@@ -126822,7 +126695,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Ochiori",
-        "order": "12"
+        "order": "14"
       },
       "components": [
         {
@@ -127276,7 +127149,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Misasa",
-        "order": "11"
+        "order": "13"
       },
       "components": [
         {
@@ -127938,7 +127811,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Hanawa",
-        "order": "8"
+        "order": "10"
       },
       "components": [
         {
@@ -128418,7 +128291,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Hamada Nagahama",
-        "order": "9"
+        "order": "11"
       },
       "components": [
         {
@@ -128781,7 +128654,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kurayoshi",
-        "order": "10"
+        "order": "12"
       },
       "components": [
         {
@@ -128962,7 +128835,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Tono",
-        "order": "5"
+        "order": "7"
       },
       "components": [
         {
@@ -129702,7 +129575,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Kemanai",
-        "order": "6"
+        "order": "8"
       },
       "components": [
         {
@@ -130273,7 +130146,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Masuda",
-        "order": "7"
+        "order": "9"
       },
       "components": [
         {
@@ -131500,6 +131373,940 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page242.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Dai",
+        "order": "6"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Dai Onsen (台温泉)<br>26 September 2026</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyBZzO4BDy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-10b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyBZzOoR68",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08740-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08740-fileminimizer-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08741-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08741-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08743-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08743-fileminimizer-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08745-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08745-fileminimizer-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08747b-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08747b-fileminimizer-1-800x527.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08748b-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08748b-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08750-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08750-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-163135908-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-163135908-hdrb-fileminimizer-800x603.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164238293-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164238293-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164326841-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164326841-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164405934-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164405934-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-171752530-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-171752530-hdrb-fileminimizer-800x601.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-171838033-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-171838033-hdr-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-171917229-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-171917229-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08742b-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08742b-fileminimizer-800x615.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08746-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08746-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08749-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08749-fileminimizer-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08751-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08751-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc08757-fileminimizer-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc08757-fileminimizer-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-162035615-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-162035615-hdrb-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-163203153-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-163203153-hdrb-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164139777-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164139777-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164201733-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164201733-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-164451032-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-164451032-hdrb-fileminimizer-800x1066.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-171547759-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-171547759-hdrb-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250926-171612346-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250926-171612346-hdrb-fileminimizer-800x1038.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-093422312-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-093422312-hdrb-fileminimizer-800x570.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-093449472-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-093449472-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-10c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.689856957219!2d141.05218622597297!3d39.45374137161053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8f639176e45979%3A0xe1cad243e4018efc!2sDai%20Onsen%2C%20Dai%2C%20Hanamaki%2C%20Iwate%20025-0305%2C%20Japan!5e0!3m2!1sno!2sno!4v1792517303129!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.689856957219!2d141.05218622597297!3d39.45374137161053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8f639176e45979%3A0xe1cad243e4018efc!2sDai%20Onsen%2C%20Dai%2C%20Hanamaki%2C%20Iwate%20025-0305%2C%20Japan!5e0!3m2!1sno!2sno!4v1792517303129!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyBZzOGWHw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "map1-10d"
+        }
+      ]
+    },
+    "page243.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Hizume",
+        "order": "5"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Hizume (日詰)<br>27 September 2025</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyC6uWAfSM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-10e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyC6uWTzKY",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-162817730-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-162817730-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-163734717-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-163734717-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-163802183-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-163802183-hdrb-fileminimizer-800x540.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-164022943-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-164022943-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-164307325-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-164307325-hdrb-fileminimizer-800x548.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-164349539-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-164349539-hdr-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250927-164759745-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250927-164759745-hdrb-fileminimizer-800x581.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-081402705-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-081402705-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-081553111-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-081553111-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-083404225-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-083404225-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-fileminimizer-800x587.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-081808545-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-081808545-hdr-fileminimizer-800x567.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-081824268-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-081824268-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-082155533-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-082155533-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-082246212-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-082246212-hdr-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-082258171-hdrb-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-082258171-hdrb-fileminimizer-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-082327036-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-082327036-hdr-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20250928-082812802-hdr-fileminimizer.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20250928-082812802-hdr-fileminimizer-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-10f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6152.342737286152!2d141.16265416145328!3d39.55574335224615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shonno%20ryokan!5e0!3m2!1sno!2sno!4v1792518958357!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6152.342737286152!2d141.16265416145328!3d39.55574335224615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shonno%20ryokan!5e0!3m2!1sno!2sno!4v1792518958357!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vyC6uXbSWi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "map1-10g"
         }
       ]
     }
