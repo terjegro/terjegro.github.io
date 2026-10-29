@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Folk art and crafts sub-page",
-    "currentPage": "index.html",
+    "currentPage": "page42.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 1331,
+    "uniqCompNum": 1335,
     "versionPublish": "6.1.12",
     "screenshot": "screenshot.png",
     "imageResize": false,
@@ -157,7 +157,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Links",
-        "order": "104"
+        "order": "42"
       },
       "components": [
         {
@@ -363,7 +363,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc00572-fileminimizer.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><br>Folk art and crafts</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp; &nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page151.html\" data-app-placeholder=\"Type Text\">Hanayome noren</a> <a class=\"btn btn-white-outline\" href=\"page79.html\" data-app-placeholder=\"Type Text\">Inami woodcraft</a> <a class=\"btn btn-white-outline\" href=\"page160.html\" data-app-placeholder=\"Type Text\">Matsugaoka silk</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dsc00572-fileminimizer.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#fea771\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><br>Folk art and crafts</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;&nbsp;</h3>\n                <p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" mbr-article data-app-selector=\".mbr-text, .mbr-section-btn\" data-multiline>&nbsp; &nbsp;&nbsp;</p>\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-white-outline\" href=\"page151.html\" data-app-placeholder=\"Type Text\">Hanayome noren</a> <a class=\"btn btn-white-outline\" href=\"page79.html\" data-app-placeholder=\"Type Text\">Inami woodcraft</a> <a class=\"btn btn-white-outline\" href=\"page160.html\" data-app-placeholder=\"Type Text\">Matsugaoka silk</a> <a class=\"btn btn-white-outline\" href=\"page160.html\" data-app-placeholder=\"Type Text\">Medicine wrappings</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "info3-8e",
           "_isUserblock": true,
           "_cid": "toZl97iEiQ",
@@ -378,7 +378,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Bykle Kyrkje",
-        "order": "84"
+        "order": "41"
       },
       "components": [
         {
@@ -896,7 +896,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Unnaryd II",
-        "order": "82"
+        "order": "39"
       },
       "components": [
         {
@@ -1479,7 +1479,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Bollaltebygget",
-        "order": "81"
+        "order": "38"
       },
       "components": [
         {
@@ -2049,7 +2049,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Apladalen",
-        "order": "80"
+        "order": "37"
       },
       "components": [
         {
@@ -2697,7 +2697,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Olpersgarden",
-        "order": "79"
+        "order": "36"
       },
       "components": [
         {
@@ -3710,7 +3710,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Gökhem",
-        "order": "78"
+        "order": "35"
       },
       "components": [
         {
@@ -4861,7 +4861,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Brandstorp Kyrka",
-        "order": "77"
+        "order": "34"
       },
       "components": [
         {
@@ -5796,7 +5796,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Kungslena Kyrka",
-        "order": "76"
+        "order": "33"
       },
       "components": [
         {
@@ -6327,7 +6327,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Uvdal Stavkirke",
-        "order": "75"
+        "order": "32"
       },
       "components": [
         {
@@ -6806,7 +6806,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Nore Stavkirke",
-        "order": "74"
+        "order": "31"
       },
       "components": [
         {
@@ -7428,7 +7428,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Sønstebøstugu",
-        "order": "73"
+        "order": "30"
       },
       "components": [
         {
@@ -7686,7 +7686,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Røldal Stavkirke",
-        "order": "72"
+        "order": "29"
       },
       "components": [
         {
@@ -7983,7 +7983,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Inami woodcraft",
-        "order": "68"
+        "order": "28"
       },
       "components": [
         {
@@ -8605,7 +8605,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Rättvik Gammelgård",
-        "order": "49"
+        "order": "27"
       },
       "components": [
         {
@@ -9267,7 +9267,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Danielsgården",
-        "order": "47"
+        "order": "25"
       },
       "components": [
         {
@@ -9846,7 +9846,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Jon-Lars",
-        "order": "46"
+        "order": "24"
       },
       "components": [
         {
@@ -10573,7 +10573,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Löka",
-        "order": "45"
+        "order": "23"
       },
       "components": [
         {
@@ -11677,7 +11677,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Ol-Anders",
-        "order": "44"
+        "order": "22"
       },
       "components": [
         {
@@ -12638,7 +12638,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Sillegården",
-        "order": "43"
+        "order": "21"
       },
       "components": [
         {
@@ -13066,7 +13066,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Vippentorpet",
-        "order": "42"
+        "order": "20"
       },
       "components": [
         {
@@ -13325,7 +13325,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Pallars",
-        "order": "41"
+        "order": "19"
       },
       "components": [
         {
@@ -13987,7 +13987,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Danielsgården II",
-        "order": "48"
+        "order": "26"
       },
       "components": [
         {
@@ -14709,7 +14709,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vårkumla",
-        "order": "40"
+        "order": "18"
       },
       "components": [
         {
@@ -15213,7 +15213,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Suntak",
-        "order": "39"
+        "order": "17"
       },
       "components": [
         {
@@ -15987,7 +15987,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Unnaryd",
-        "order": "83"
+        "order": "40"
       },
       "components": [
         {
@@ -16656,7 +16656,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Kristofers",
-        "order": "38"
+        "order": "16"
       },
       "components": [
         {
@@ -17630,7 +17630,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mårtes",
-        "order": "30"
+        "order": "8"
       },
       "components": [
         {
@@ -18435,7 +18435,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mårtes II",
-        "order": "36"
+        "order": "14"
       },
       "components": [
         {
@@ -19162,7 +19162,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Gästgivars",
-        "order": "37"
+        "order": "15"
       },
       "components": [
         {
@@ -20019,7 +20019,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Bommars",
-        "order": "35"
+        "order": "13"
       },
       "components": [
         {
@@ -20993,7 +20993,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Tjärnmyra",
-        "order": "31"
+        "order": "9"
       },
       "components": [
         {
@@ -21533,7 +21533,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Mickels",
-        "order": "32"
+        "order": "10"
       },
       "components": [
         {
@@ -22229,7 +22229,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Ås",
-        "order": "33"
+        "order": "11"
       },
       "components": [
         {
@@ -22431,7 +22431,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Norrbergstugan",
-        "order": "34"
+        "order": "12"
       },
       "components": [
         {
@@ -23800,7 +23800,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Matsugaoka",
-        "order": "27"
+        "order": "7"
       },
       "components": [
         {
@@ -24586,6 +24586,707 @@
           "_isUserblock": true,
           "_cid": "vyFyIDmXwA",
           "_anchor": "info3-10v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page42.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Medicine",
+        "order": "5"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">&nbsp;</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Medicine wrappings<br>Kanaoka former/residence, Higashi-Shinjo, Toyama (富山県富山市東新庄金岡邸）\n<div>4 November 2022</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vzbCYa8IPM",
+          "_anchor": "content4-10z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery3-112",
+          "_isUserblock": true,
+          "_cid": "vzdQfHr1Vl",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01876-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01876-2-fm-1-800x953.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01876-3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01876-3-fm-1-800x984.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01876-4-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01876-4-fm-800x672.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01877-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01877-2-fm-1-800x782.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01897-2-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01897-2-fm-800x970.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1-fm-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-fm-2-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01879-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01879-2-fm-1-800x1139.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01879-3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01879-3-fm-1-800x1080.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01880-2-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01880-2-fm-800x1020.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01882-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01882-2-fm-1-800x700.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01882-3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01882-3-fm-1-800x744.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01884-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01884-2-fm-1-800x984.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01928-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01928-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01930-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01930-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01888-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01888-2-fm-1-800x1176.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01888-3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01888-3-fm-1-800x1020.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01888-4-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01888-4-fm-1-800x601.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01895-2-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01895-2-fm-1-800x1079.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01895-3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01895-3-fm-1-800x1072.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01895-4-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01895-4-fm-1-800x1378.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01895-5-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01895-5-fm-1-678x870.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01929-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01929-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01919-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01919-fm-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01925-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01925-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1-fm-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-fm-3-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01910-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01910-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01912-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01912-fm-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc01916-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01916-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02006-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02006-fm-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02015-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02015-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02017-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02017-fm-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1-fm-4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-fm-4-600x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/4-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-fm-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/5-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-fm-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02016-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02016-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02001-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02001-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02002-fm.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02002-fm-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02007-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02007-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02018-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02018-fm-1-768x1024.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dsc02023-fm-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02023-fm-1-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.862451431507!2d137.25131617584344!3d36.70184307227531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff790cbd26fc72b%3A0xeaf9ee92ea23691a!2z6Jas56iu5ZWG44Gu6aSoIOmHkeWyoemCuA!5e0!3m2!1sno!2sno!4v1793042706390!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.862451431507!2d137.25131617584344!3d36.70184307227531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff790cbd26fc72b%3A0xeaf9ee92ea23691a!2z6Jas56iu5ZWG44Gu6aSoIOmHkeWyoemCuA!5e0!3m2!1sno!2sno!4v1793042706390!5m2!1sno!2sno&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "vzbCYauajt",
+          "_anchor": "map1-111",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
